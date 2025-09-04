@@ -22,6 +22,12 @@ Le type bool est utilisé pour les valeurs booléennes (true ou false).
 Les variables peuvent être déclarées avec le mot clé var, suivi du nom de la variable, du type et éventuellement d'une valeur initiale.
 Les variables peuvent aussi être déclarées avec l'opérateur :=, qui infère le type de la variable à partir de la valeur initiale.
 
+!!!!! Attention : en GO, une variable déclarée mais non utilisée provoque une erreur de compilation !!!!!
+!!!!! nil est la valeur zéro spéciale qui représente l’absence de valeur. C’est l’équivalent de null en Java / JS ou None en Python.
+!!!!! Mais en Go, nil ne peut pas s’appliquer à tous les types : seulement aux pointeurs, aux interfaces, aux fonctions, aux slices, aux maps et aux channels.
+!!!!! Pas pour les types de base comme int, float, bool, string, etc.
+!!!!! En GO, les variables non initialisées prennent automatiquement la valeur zéro de leur type :
+
 */
 
 func main() {
