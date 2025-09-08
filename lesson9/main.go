@@ -7,7 +7,7 @@ import "fmt"
 Le scope et création d'un deuxième fichier
 
 Qu'est-ce qu'un Scope :
-endoit du code ou la variable, la fonction va être reconnu, définit laporté des variables
+endoit du code ou la variable, la fonction va être reconnu, définit la porté des variables
 - global (déclaré à l'extérieur de toute fonction comme main et des autres)
 - local (déclaré dans la fontion ou le bloc)
 
