@@ -1,0 +1,6 @@
+{{ template "base" . }}
+
+{{ define "content" }}
+    <h1>À Propos</h1>
+        <p>Je m'appelle {{ index .StringData "owner" }} et j'ai {{ index .IntData "owner" }} ans.</p>
+{{ end }}
