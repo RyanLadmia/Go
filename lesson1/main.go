@@ -17,7 +17,7 @@ go build ./main.go (build le projet en exécutable)
  Puis exécuter l'exécutable : ./main (main est le nom de l'exécutable)
 go run main.go (main.go est le fichier principal du projet)
 
-Cela fais apparaitre le message "Hello, World!" dans la console.
+Cela fais apparaitre le message "Hello, World!" dans le terminal.
 
 fmt.Print = affiche le texte tel quel sans retour à la ligne
 fmt.Println = affiche le texte avec retour à la ligne
